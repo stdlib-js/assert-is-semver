@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-semver/tags). For example,
+
+```javascript
 import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.0.0-deno/mod.js';
 ```
 
@@ -61,7 +66,7 @@ bool = isSemVer( 'foo' );
 ## Examples
 
 ```javascript
-import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.0.0-deno/mod.js';
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@deno/mod.js';
 
 var bool = isSemVer( '1.0.0' );
 // returns true
