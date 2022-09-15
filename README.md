@@ -121,7 +121,7 @@ npm install -g @stdlib/assert-is-semver
 ### Usage
 
 ```text
-Usage: is-semver [options] <str>
+Usage: is-semver [options] [<str>]
 
 Options:
 
