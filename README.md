@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@deno/mod.js';
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.0.0-deno/mod.js';
 ```
 
 #### isSemVer( value )
@@ -61,7 +61,7 @@ bool = isSemVer( 'foo' );
 ## Examples
 
 ```javascript
-import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@deno/mod.js';
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.0.0-deno/mod.js';
 
 var bool = isSemVer( '1.0.0' );
 // returns true
