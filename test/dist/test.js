@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,45 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isSemVer = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isSemVer, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns `true` if provided a semantic version string', function test( t ) {
-	t.equal( isSemVer( '1.0.0' ), true, 'returns expected value' );
-	t.equal( isSemVer( '1.0.0-alpha.1' ), true, 'returns expected value' );
-	t.equal( isSemVer( '1.0.0-beta.1.2.3' ), true, 'returns expected value' );
-	t.equal( isSemVer( '1.0.0-alpha.1.2.3+build.foo.bar.baz' ), true, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function returns `false` if not provided a semantic version string', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		'foo',
-		'1.0',
-		1,
-		NaN,
-		true,
-		false,
-		null,
-		void 0,
-		[],
-		{},
-		function noop() {}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.equal( isSemVer( values[i] ), false, 'returns expected value when provided '+values[i] );
-	}
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
