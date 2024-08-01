@@ -46,7 +46,7 @@
     "@stdlib/fs-read-file": "^0.2.2",
     "@stdlib/process-read-stdin": "^0.2.2",
     "@stdlib/regexp-eol": "^0.2.2",
-    "@stdlib/regexp-semver": "^0.2.1",
+    "@stdlib/regexp-semver": "^0.2.2",
     "@stdlib/streams-node-stdin": "^0.2.2",
     "@stdlib/utils-regexp-from-string": "^0.2.2"
   },
@@ -60,7 +60,7 @@
     "proxyquire": "^2.0.0",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
