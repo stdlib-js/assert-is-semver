@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@esm/index.mjs';
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.2.3-esm/index.mjs';
 ```
 
 #### isSemVer( value )
@@ -77,7 +77,7 @@ bool = isSemVer( 'foo' );
 <body>
 <script type="module">
 
-import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@esm/index.mjs';
+import isSemVer from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-semver@v0.2.3-esm/index.mjs';
 
 var bool = isSemVer( '1.0.0' );
 // returns true
